@@ -1,0 +1,16 @@
+
+<mat-card>
+  <div class="download-file" *ngFor="let item of (files$ | async); index as i">
+    <div class="_text">
+      <p>{{i}}. Name: {{item.name}}</p>
+      <p>Size: {{item.size}}</p>
+    </div>
+    <div class="_button">
+      <button
+        mat-raised-button
+        color="primary"
+        (click)="download(item)">Download</button>
+    </div>
+  </div>
+</mat-card>
+

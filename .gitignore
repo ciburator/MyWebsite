@@ -1,0 +1,9 @@
+/web-app/node_modules
+/web-app/.angular
+/web-app/.vscode/*
+
+/downloads
+
+/web-server/bin
+/web-server/obj
+/web-server/.vs

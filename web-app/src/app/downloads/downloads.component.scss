@@ -1,0 +1,30 @@
+mat-card {
+  background-color: #f5f5dc;
+  padding: 10px;
+  border-radius: 10px;
+  width: 800px;
+}
+
+.download-file {
+  padding: 0px 15px 0px 15px;
+  display: flex;
+  flex-direction: row;
+  flex: auto auto;
+
+  ._text {
+    width: 100%;
+  }
+
+  ._button {
+    align-self: center;
+  }
+
+  p:nth-child(2) {
+    padding-left: 15px;
+  }
+
+  &:hover {
+    background-color: rgb(196, 196, 148);
+    border-radius: 10px;
+  }
+}
