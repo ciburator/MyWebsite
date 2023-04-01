@@ -1,10 +1,11 @@
-﻿namespace DataAccess
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace DataAccess;
+
+public class MyDbContext : DbContext
 {
-    public class MyDbContext: DbContext
+    public MyDbContext()
     {
-        public MyDbContext()
-        {
-            
-        }
+
     }
 }
