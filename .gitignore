@@ -7,3 +7,6 @@
 /web-server/bin
 /web-server/obj
 /web-server/.vs
+/web-server/web-api/bin/Debug/net7.0
+/web-server/web-api/obj
+*.user

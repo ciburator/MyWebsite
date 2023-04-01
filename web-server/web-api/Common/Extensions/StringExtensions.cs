@@ -1,4 +1,4 @@
-﻿namespace web_server.Common.Extensions;
+﻿namespace web_api.Common.Extensions;
 
 internal static class StringExtensions
 {

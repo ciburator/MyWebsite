@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using web_server.Common.Extensions;
-using web_server.Common.Helpers;
-using web_server.Models;
+using web_api.Common.Extensions;
+using web_api.Common.Helpers;
+using web_api.Models;
 
-namespace web_server.Controllers;
+namespace web_api.Controllers;
 
 [ApiController]
 [Route("api/[controller]/[action]")]

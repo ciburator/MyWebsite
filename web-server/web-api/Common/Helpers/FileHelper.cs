@@ -1,4 +1,4 @@
-﻿namespace web_server.Common.Helpers;
+﻿namespace web_api.Common.Helpers;
 
 using Microsoft.AspNetCore.StaticFiles;
 

@@ -1,4 +1,4 @@
-﻿namespace web_server.Models;
+﻿namespace web_api.Models;
 
 public class DownloadFile
 {
