@@ -10,3 +10,5 @@
 /web-server/web-api/bin/Debug/net7.0
 /web-server/web-api/obj
 *.user
+/.vs
+/web-server/DataAccess/obj
