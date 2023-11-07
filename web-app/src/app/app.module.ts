@@ -13,12 +13,15 @@ import { MatCardModule } from '@angular/material/card';
 import { FileService } from './shared/services/file.service';
 
 import { DownloadsComponent } from './downloads/downloads.component';
+import { LoginComponent } from './authentication/login/login.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DownloadsComponent
-   ],
+    DownloadsComponent,
+    HomeComponent,
+  ],
   imports: [
     BrowserModule,
     HttpClientModule,
@@ -28,9 +31,7 @@ import { DownloadsComponent } from './downloads/downloads.component';
     MatProgressBarModule,
     MatCardModule,
   ],
-  providers: [
-    FileService,
-  ],
-  bootstrap: [AppComponent]
+  providers: [FileService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
